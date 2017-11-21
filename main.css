@@ -1,0 +1,267 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+    color: #6a859c;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+h3, h4 {
+	font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+}
+
+.emptyDiv {
+	clear: both;
+}
+
+.main-container {
+
+}
+
+header {
+	position: fixed;
+	padding: 20px 0px;
+	background-color: #fff;
+	width: 100%;
+	border-bottom: .5px solid #69b9ff;
+}
+
+.header-container {
+	margin: 0px auto;
+	width: 950px;
+}
+
+.workshop-name {
+	color: #69b9ff;
+	font-size: 25px;
+	line-height: 25px;
+	font-weight: 300;
+    letter-spacing: 4px;
+    float: left;
+}
+.workshop-name:hover{
+ transform:scale(.5);
+
+}
+
+.top-nav {
+	float: right;
+}
+
+.top-nav ul li {
+	display: inline-block;
+	margin: 0px 20px;
+}
+.top-nav ul li:hover {
+ -webkit-transform:scale(1.2);
+}
+.top-nav ul li a {
+	color: #2e9dff;
+}
+.top-nav ul li a:hover {
+	color: #0F4D58;
+	transition-property: color;
+	transition-duration:0.5s;
+
+}
+
+
+#home {
+	padding-top: 75px;
+	width: 100%;
+	height: 575px;
+	border-bottom: 3px solid #69b9ff;
+	background-color: #69b9ff;
+	background-image: linear-gradient(180deg, rgba(46, 157, 255, .5), rgba(46, 157, 255, .22)), url("images/SambaWorkshop1.jpg");
+	background-size: cover;
+}
+
+#home h1{
+	font-size: 50px;
+	line-height: 60px;
+	font-weight: 300;
+    letter-spacing: 4px;
+	color: #fff;
+	width: 100%;
+	margin-top: -260px;
+	text-align: center;
+	transition-duration:12456544s;
+	
+}
+
+#home:hover h1{
+	margin-top: 200px;
+	transition-property:margin-top ;
+	transition-duration:2s;
+	
+     
+}
+#home h2 {
+	color: #2e9dff;
+	margin: 30px auto;
+	font-size: 25px;
+    line-height: 25px;
+    font-weight: 300;
+    letter-spacing: 3px;
+	text-align: center;
+}
+#home:hover h2{
+	color: black;
+	transition-property: color;
+	transition-duration: 2s;
+	}
+
+.sub-nav {
+	margin: 60px auto;
+	text-align: center;
+}
+
+.sub-nav a {
+	padding: 12px 30px;
+	margin: 10px;
+	font-size: 16px;
+    line-height: 21px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.sub-nav #btn1 {
+	background-color: #69b9ff;
+}
+
+.sub-nav #btn1:hover {
+	background-color: #2e9dff;
+}
+
+.sub-nav #btn2 {
+	color: #fff;
+	border: 1px solid white;
+}
+
+.sub-nav #btn2:hover {
+	color: #2e9dff;
+	border-color: #2e9dff;
+}
+
+#sessions {
+	margin: 20px auto;
+	padding: 40px;	
+}
+
+#sessions h2 {
+	margin: 30px;
+}
+
+#sessions h3 {
+	margin: 20px;
+}
+
+.sessionsList {
+
+}
+
+.sessionsList li {
+	display: inline-block;
+	border: 1px solid #dcebf7;
+	border-radius: 5px;
+	height: 300px;
+	width: 300px;
+	padding: 15px;
+	margin: 10px;
+	vertical-align: top;
+}
+
+#sessions .imgContainer img {
+	width: 60%;
+	margin: 20px auto;
+	display: block;
+}
+
+.imgContainer {
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	background-color: #69b9ff;
+	padding: 10px;
+	border-radius: 50%;
+	border: 10px solid #fff;
+	transition: .4s ease-in-out;
+}
+
+.Image:hover  {
+  -webkit-transform: rotate(.1turn);
+  
+}
+
+.Loading{
+	transition: 5s linear;
+}
+
+.Loading:hover{
+	-webkit-transform: rotate(90deg);
+		-moz-transform: rotate(90deg);
+		-o-transform: rotate(90deg);
+}
+
+#about {
+	margin: 20px auto;
+	padding: 40px;	
+	background-color: #69b9ff;
+	color: white;
+	text-align: center;
+}
+
+#about p {
+	margin: 10px;
+}
+
+.samba {
+	float: left;
+	max-width: 35%;
+	margin-left: 50px;
+	text-align: left;
+}
+
+.engbreak {
+	float: right;
+	max-width: 35%;
+	margin-right: 50px;
+	text-align: left;
+}
+
+footer {
+	margin: 15px auto;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
